@@ -1,0 +1,11 @@
+{
+  "name": "js-ioc",
+  "version": "0.0.1",
+  "description": "javascript inversion of control container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dayne m kilheffer",
+  "license": "ISC"
+}
