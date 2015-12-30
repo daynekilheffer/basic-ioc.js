@@ -1,4 +1,4 @@
-var ioc = require('../');
+var ioc = require('../../');
 var path = require('path');
 
 var container = ioc.initialize(path.resolve('./example.json'));

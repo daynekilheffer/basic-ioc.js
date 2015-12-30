@@ -1,0 +1,14 @@
+{
+  "components": [
+    {
+      "id": "comps.starter",
+      "source": "./components/starter",
+      "properties": [
+        {
+            "name": "calculator",
+            "source": "./components/calc1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "components": [
+    {
+      "id": "comps.starter",
+      "source": "./components/starter"
+    }
+  ]
+}

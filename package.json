@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dayne m kilheffer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "eyes": "^0.1.8"
+  }
 }

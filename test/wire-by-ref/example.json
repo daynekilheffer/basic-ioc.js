@@ -1,13 +1,13 @@
 {
   "components": [
     {
-      "name": "comps.calc1",
+      "id": "comps.calc1",
       "source": "./components/calc1"
     },
     {
-      "name": "comps.starter",
+      "id": "comps.starter",
       "source": "./components/starter",
-      "property": [
+      "properties": [
         {
           "name": "calculator",
           "ref": "comps.calc1"
