@@ -12,6 +12,9 @@
     "arrify": "1.0.1"
   },
   "devDependencies": {
-    "eyes": "^0.1.8"
+    "chai": "^3.5.0",
+    "eyes": "^0.1.8",
+    "mocha-traceur": "^2.1.0",
+    "traceur": "0.0.105"
   }
 }

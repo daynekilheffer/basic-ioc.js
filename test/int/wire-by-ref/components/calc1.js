@@ -1,6 +1,10 @@
-console.log('loading calc1');
+
+let calcText;
 module.exports = {
   run: function () {
-    console.log('running calc1');
+    return calcText;
+  },
+  text: function (text) {
+    calcText = text;
   }
 };

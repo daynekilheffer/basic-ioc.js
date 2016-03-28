@@ -1,12 +1,13 @@
-console.log('loading starter');
-
-var calculator;
+let calculator;
 module.exports = {
   run: function () {
-    console.log('running starter');
-    calculator.run();
+    return calculator.run();
   },
   calculator: function (calc) {
-    calculator = calc;
+    if (arguments.length > 0) {
+      calculator = calc;
+    } else {
+      return calculator;
+    }
   }
-}
+};
