@@ -1,7 +1,7 @@
-var fs = require('fs');
-var path = require('path');
+const fs = require('fs');
+const path = require('path');
 
-var Container = require('./lib/container');
+const Container = require('./lib/container');
 
 function readConfig(filename) {
   return JSON.parse(fs.readFileSync(filename, 'utf8'));
@@ -9,9 +9,8 @@ function readConfig(filename) {
 
 module.exports = {
   initialize: function (filename) {
-    var config = readConfig(filename);
-    var cwd = path.dirname(filename);
-    var container = new Container(config, cwd);
-    return container;
+    let config = readConfig(filename);
+    let cwd = path.dirname(filename);
+    return new Container(config, cwd);
   }
-}
+};
