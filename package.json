@@ -9,7 +9,9 @@
   "author": "dayne m kilheffer",
   "license": "ISC",
   "dependencies": {
-    "arrify": "^1.0.1",
+    "arrify": "1.0.1"
+  },
+  "devDependencies": {
     "eyes": "^0.1.8"
   }
 }
