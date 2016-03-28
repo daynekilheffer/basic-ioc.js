@@ -4,7 +4,7 @@
   "description": "javascript inversion of control container",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha test/int/**/index.js --compilers js:mocha-traceur"
   },
   "author": "dayne m kilheffer",
   "license": "ISC",
@@ -14,6 +14,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "eyes": "^0.1.8",
+    "mocha": "^2.4.5",
     "mocha-traceur": "^2.1.0",
     "traceur": "0.0.105"
   }
