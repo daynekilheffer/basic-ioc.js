@@ -8,6 +8,10 @@
   },
   "author": "dayne m kilheffer",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daynekilheffer/basic-ioc.js.git"
+  },
   "dependencies": {
     "arrify": "1.0.1"
   },
